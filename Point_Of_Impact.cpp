@@ -10,8 +10,8 @@ int main(){
             cout<<n<<" "<<n<<endl;
         }
         else {
-            map<long long ,pair<long long,long long  >>m;
-            if(x<y){
+            map<int,pair<long long >>m;
+            if(x>y){
                 m[0]={x+n-y,n};
                 m[1]={n,n-y+x};
                 m[2]={y-x,0};

@@ -23,7 +23,7 @@ int main(){
             sum1+=data;
             v1.push_back(data);
         }
-        if(sum1>sum2){
+        if(sum1>sum1){
             cout<<"0"<<'\n';
         }
         else {
