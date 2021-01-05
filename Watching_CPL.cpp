@@ -4,7 +4,7 @@
 using namespace std;
 
 long long  dp[4020][4020];
-long long  pref[4020];
+long long  pref[402000];
 
 long long  compute(long long  idx, long long  used, long long  n, long long  k, vector<long long > &arr) {
     if (used >= k and (pref[idx] - used >= k)) return 0;
